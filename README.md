@@ -12,4 +12,4 @@ create a div with the class <b>"crypto-widget-basic"</b> <br>
 Specify crypto currency names in data attribute id like this <br>
 <b>data-id="bitcoin,tron,ripple,ethereum"</b><br>
 specify currency in <b>data-currency="inr"</b>
-<p>' class="crpto-widget-basic row" data-id="bitcoin,tron,ripple,ethereum" data-currency="inr"'</p>
+<p>' class="crypto-widget-basic row" data-id="bitcoin,tron,ripple,ethereum" data-currency="inr"'</p>

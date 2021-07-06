@@ -1,7 +1,7 @@
 $(document).ready(function () {
    
    //crypto widget basic 
-   if($('body').find('.crpto-widget-basic-demo').length > 0){
+   if($('body').find('.crpto-widget-basic').length > 0){
         
        var symbols = $('.crpto-widget-basic').data('id');
        var currency = $('.crpto-widget-basic').data('currency');

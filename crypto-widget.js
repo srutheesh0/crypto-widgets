@@ -3,8 +3,8 @@ $(document).ready(function () {
    //crypto widget basic 
    if($('body').find('.crypto-widget-basic').length > 0){
         
-       var symbols = $('.crpto-widget-basic').data('id');
-       var currency = $('.crpto-widget-basic').data('currency');
+       var symbols = $('.crypto-widget-basic').data('id');
+       var currency = $('.crypto-widget-basic').data('currency');
        window.setTimeout(function () {
            $.ajax({
                url: 'https://api.coingecko.com/api/v3/coins/markets',
@@ -31,7 +31,7 @@ $(document).ready(function () {
                        widget += '</div>';
                        widget += '</div>';
                        widget += '</div>';
-                       $('body').find('.crpto-widget-basic').append(widget);
+                       $('body').find('.crypto-widget-basic').append(widget);
                        widget = '';
                    });
                   

@@ -8,7 +8,8 @@
 
 
 add html <br>
-create a div with the class "crpto-widget-basic" <br>
-add data attribute id like this <br>
+create a div with the class <b>"crpto-widget-basic"</b> <br>
+Specify crypto currency names in data attribute id like this <br>
 <b>data-id="bitcoin,tron,ripple,ethereum"</b><br>
-'<div class="crpto-widget-basic row" data-id="bitcoin,tron,ripple,ethereum" data-currency="inr"></div>'
+specify currency in <b>data-currency="inr"</b>
+<p>' class="crpto-widget-basic row" data-id="bitcoin,tron,ripple,ethereum" data-currency="inr"'</p>
